@@ -166,7 +166,7 @@ body{
 .slider{
     position: relative;
     padding-top: 24%;
-    background: url('/baitaplon/Assets/img/slider/slider.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider/slider.jpg') top center / cover no-repeat;
     margin-bottom: 100px;
     z-index: -1;
 }
