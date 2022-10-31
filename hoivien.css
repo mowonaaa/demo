@@ -1,0 +1,118 @@
+body {
+    max-width: 1519px; 
+    overflow-x: hidden;
+}
+.menu{
+    width: 100%;
+    height: 120px;
+    background-color: #efebdb;
+    
+}
+.up{
+    padding: 10px;
+    text-align: center;
+}
+.dow{
+    height: 50px;
+    width: 80%;
+}
+.search{
+    height: 35px;
+    width: 550px;
+    background-color: white;
+    margin: 0 auto;
+}
+.search input{
+    width: 490px;
+    height: 33px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 15px;
+    
+}
+.search button{
+    border: 0px;
+}
+.search button ion-icon{
+    width: 15px;
+    height: 15px;
+}
+.hight{
+    width: 100%;
+    height: 50px;
+    background-color: #faebd7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #fff;
+}
+.hight ul{
+    list-style: none;
+    text-align: center;
+
+}
+.hight ul li{
+    display: inline-block;     
+}
+.hight ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    color: #111;
+}
+.all{
+    width: 100%;
+    height: auto;
+}
+.pra{
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(227, 221, 227);
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.pra a{
+    text-decoration: none;
+    color: red;
+}
+.endnot{
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.bang table{
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+}
+.bang p1{
+    text-align: center;
+    color: red;
+}
+.bang h1{
+    font-size: 15px;
+}
+.end{
+    width: 80%;
+    margin: 0 auto;
+}
+.end img{
+    width: 100%;
+    height: auto;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    border-top: 4px groove rgb(236, 225, 119);
+    padding: 60px 100px;
+    
+}
+.footer img{
+    width: 300px;
+}
+.footer a{
+    text-decoration: none;
+    color: #111;
+}
