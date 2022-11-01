@@ -165,12 +165,13 @@ body{
 
 .slider{
     position: relative;
-    padding-top: 24%;
-    background: url('/assets/img/slider/slider.jpg') top center / cover no-repeat;
-    margin-bottom: 100px;
     z-index: -1;
+    max-width: 100%;
+    padding-bottom: 100px;
 }
-
+.img-slider {
+    width: 100%;
+}
 .content-img{
     background-repeat:no-repeat;
     padding-left: 140px;
