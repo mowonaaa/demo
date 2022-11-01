@@ -192,7 +192,7 @@ body{
     background-color: #cdc197;
     width: 800px;
     height: 100px;
-    margin: 0 0 20px 348px;
+    margin: 0 0 20px 280px;
     text-align: center; 
     box-shadow:15px 15px 10px #ccc;
     border-top: 20px solid rgb(248, 245, 200);
@@ -205,36 +205,35 @@ body{
     line-height: 0.8;
 }
 
-.gift-list>:nth-child(2),
-.gift-list>:nth-child(5),
-.gift-list>:nth-child(7),
-.gift-list>:nth-child(9){
-    margin-left: 424px;
+.box1,
+.box2,
+.box3,
+.box4{
+    display: flex;
+    justify-content: space between; 
 }
 
-.gift-list>:nth-child(4),
-.gift-list>:nth-child(6),
-.gift-list>:nth-child(8){
-    margin-top: 64px;
+.box1>:first-child,
+.box2>:first-child,
+.box3>:first-child,
+.box4>:first-child{
+    margin-left: 360px;
 }
 
 
-
-.gift-list>:nth-child(2),
-.gift-list>:nth-child(3){
+.box1 .gift-items{
     background-color: rgb(250, 235, 100);
 }
 
-.gift-list>:nth-child(5){
+.box2 .gift-items{
     background-color: rgb(241, 227, 238);
 }
 
-.gift-list>:nth-child(7){
+.box3 .gift-items{
     background-color: rgb(240, 164, 244);
 }
 
-.gift-list>:nth-child(9),
-.gift-list>:nth-child(10){
+.box4 .gift-items{
     background-color: rgb(124, 227, 227);
 }
 
@@ -286,19 +285,9 @@ body{
 
 #footer {
     position: relative;
-    width: 100%;
+    width: 100%;    
 }
 
-.foot_Img {
-    width: 980px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-img {
-    border: 0;
-    vertical-align: middle;
-}
 
 #footer .footer_inner {
     width: 980px;

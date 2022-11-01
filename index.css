@@ -113,7 +113,6 @@ body{
 }
 .movie {
     background-color: antiquewhite;
-    margin-bottom: 2rem;
     max-width: 100%;
     padding-top: 1rem;
     margin-top: -10px;
@@ -250,9 +249,8 @@ a {
 }
 
 .time_line dd .theater_time li:hover {
-    background-color: #000;
+    background-color: #ccc;
     color: #fff;
-    border: 1px solid #000;
     text-decoration: none;
 }
 
@@ -285,7 +283,7 @@ a {
 #footer {
     position: relative;
     width: 100%;
-    border-top: 1px solid #dedede;
+    border-top: 2px solid #dedede;
 }
 
 .foot_Img {
@@ -306,6 +304,7 @@ img {
 }
 
 #footer .footer_link {
+    padding-left: 0;
     overflow: hidden;
 }
 

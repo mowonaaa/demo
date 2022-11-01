@@ -2,13 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+          rel="shorcut icon"
+          type="image/png"
+          href="https://cdn.glitch.global/2c8b0daf-f130-49e4-8e91-ab73cffb4a3f/nhom12..png?v=1665660343284s"
+  />
+  <title>Member</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="hoivien.css">
 </head>
 <body>
-    <div class="menu">
+    <div class="bar">
+        <div class="header_inner">
+          <ul class="menu">
+            <li class="menu_item logo_img"><a href=""><img src="https://cdn.glitch.global/2745b7c7-87eb-459a-949f-fc648cf93057/Untitled-1.png?v=1662558393072" alt="" class="logo-img"></a></li>
+            <li class="menu_item"><a href="" class="menu_link">Home</a></li>
+            <li class="menu_item movies">
+              <span class="menu_link">Movies</span>
+              <div class="movies_1">
+                <div class="menu_child">
+                  <div class="menu_child_list-1">
+                    <ul>
+                      <li class="menu_child_item">Popular</li>
+                      <li class="menu_child_item">Now Playing</li>
+                      <li class="menu_child_item">Upcoming</li>
+                      <li class="menu_child_item">Top Rated</li>
+                    </ul>             
+                  </div>
+                  <div class="menu_child_list-1">
+                    <ul>
+                      <li class="menu_child_item">Action</li>
+                      <li class="menu_child_item">Adventure</li>
+                      <li class="menu_child_item">Comedy</li>
+                      <li class="menu_child_item">Crime & Gangster</li>  
+                    </ul>
+                  </div>
+                  <div class="menu_child_list-1">
+                    <ul>
+                      <li class="menu_child_item">Epics/Hisorical</li>
+                      <li class="menu_child_item">Horror</li>
+                      <li class="menu_child_item">Mucicals</li>
+                      <li class="menu_child_item">Romance</li>
+                    </ul>              
+                  </div>
+                  <div class="menu_child_list-1">
+                    <ul>
+                      <li class="menu_child_item">Science Fiction</li>
+                      <li class="menu_child_item">Sitcom movie</li>
+                      <li class="menu_child_item">War (anti-war)</li>
+                      <li class="menu_child_item">Westerns films</li>
+                    </ul>        
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu_item more">
+              <a class="menu_link" href="">More</a>
+              <div class="menu_child-2">
+                <ul class="menu_child_list-2">
+                  <li class="menu_child_item">Discussions</li>
+                  <li class="menu_child_item">Leaderboard</li>
+                  <li class="menu_child_item">Support</li>
+                  <li class="menu_child_item">API</li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu_item"><a class="menu_link" href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="account">
+          <a href="" class="account-inner">
+            <i class="fa-solid fa-user icon"></i>
+            <span class="menu_link">Xin chào, User</span>
+            <div class="account-type">
+              <ul class="account-child">
+                <li class="menu_child_item"><a href="user.html" class="account-item">Quản lý tài khoản</a></li>
+                <li class="menu_child_item"><a href="vexemphim.html" class="account-item">Quản lý vé xem phim</a></li>
+                <li class="menu_child_item"><a href="nhanvien.html" class="account-item">Quà tặng</a></li>
+                <li class="menu_child_item"><a href="hoivien.html" class="account-item">Hội viên</a></li>
+                <li class="menu_child_item"><a href="phim.html" class="account-item">Đăng xuất</a></li>
+              </ul>
+            </div>
+          </a> 
+        </div>
+      </div>
+      <div class="header">
+        <div class="advert">
+          <p><img src="./imgs/qc2.webp" style="max-width: 100%;"  alt="anhr ddepj"></p>
+        </div>
+      </div>
+
+
+
+    <!-- <div class="menu">
         <div class="up">
                 <a href="./phim-user.html"><img height="50px" width="auto" src="https://cdn.glitch.global/2745b7c7-87eb-459a-949f-fc648cf93057/Untitled-1.png?v=1662558393072" alt=""></a>
                 <a href=""><img src="https://www.bhdstar.vn/wp-content/themes/bhd/assets/images/icon_in.png" alt=""></a>
@@ -31,39 +129,39 @@
             <li><a href="">RẠP CHIẾU PHIM</a></li>
             <li><a href="">KHUYẾN MÃI</a></li>
         </ul>
-    </div>
+    </div> -->
     <div class="all">
-        <!-- <p class="pra">bạn có thể kiểm tra thẻ thành viên của mình bằng cách <a href="https://chipped-precious-nut.glitch.me/signin.html">đăng nhập</a></p> -->
+        <p class="pra">Bạn có thể kiểm tra thẻ thành viên của mình bằng cách >> <a href="./signin.html">Đăng nhập</a></p>
         <div class="endnot">
             <p><b>CẤP ĐỘ HỘI VIÊN</b></p>
-            <p>Chương trình Khách hàng Thường xuyên của nhom12 là chương trình ưu đãi dựa trên điểm tích lũy của các thành viên, với những quyền lợi và mức ưu đãi khác nhau tương ứng với các cấp độ Thẻ khác nhau.
+            <p>Chương trình khách hàng thường xuyên của nhom12 là chương trình ưu đãi dựa trên điểm tích lũy của các thành viên, với những quyền lợi và mức ưu đãi khác nhau tương ứng với các cấp độ Thẻ khác nhau.
             <br> Mức tích lũy điểm thưởng dành cho hội viên như sau:</p>
             <div class="bang">
-                <table  border="1">
+                <table border="1">
                     <thead>
                         <th rowspan="3"></th>
-                        <th>u1222</th>
+                        <th>u12-u22</th>
                         <th>standar</th>
                         <th>vip</th>
                         <th>platinum</th>
                     </thead>
                     <tbody
                         <tr>
-                            <td>tai quay ve</td>
+                            <td>Tại quầy vé</td>
                             <td>5%</td>
                             <td>5%</td>
                             <td>7%</td>
                             <td>7%</td>
                         </tr>
                         <tr>
-                            <td>VD: voi giao dich mua ve 100.000vnd se tich duoc</td>
+                            <td>VD: Với giao dịch mua vé 100.000vnd sẽ tích được</td>
                             <td>5.000</td>
                             <td>5.000</td>
                             <td>7.000</td>
                             <td>7.000</td>
                         </tr>
                         <tr>
-                            <td>tai quay bap nuoc</td>
+                            <td>Tại quầy bắp nước</td>
                             <td>3%</td>
                             <td>3%</td>
                             <td>5%</td>
@@ -84,15 +182,15 @@
 Thành viên Nguyễn Văn A đã tích lũy được 200.000 nhom12 point.
 Với giao dịch mua 2 vé xem phim tổng cộng 200.000VND
 Thành viên có thể thanh toán 100.000VND và 100.000 nhom12 point
-hoặc thanh toán hoàn toàn với 200.000 nhóm 12 Point</p>
+hoặc thanh toán hoàn toàn với 200.000 nhom12 Point</p>
                 <h1>ƯU ĐÃI KHÁC THEO CẤP ĐỘ THÀNH VIÊN</h1>
-                <p><b>Chương trình thành viên U1222:</b>là chương trình dành cho các khách hàng trong độ tuổi từ 12 đến 22 của nhom12, thành viên sẽ nhận được ưu đãi <br>- Giá vé ưu đãi 50.000 VND - 65.000 VND/ vé 2D cho các suất chiếu từ Thứ 2 đến Thứ 6 (tùy rạp)
+                <p><b>Chương trình thành viên U12-U22:</b>là chương trình dành cho các khách hàng trong độ tuổi từ 12 đến 22 của nhom12, thành viên sẽ nhận được ưu đãi <br>- Giá vé ưu đãi 50.000 VND - 65.000 VND/ vé 2D cho các suất chiếu từ Thứ 2 đến Thứ 6 (tùy rạp)
                     <br>+ Xuất trình thẻ thành viên.
                     <br>+ Xuất trình thẻ HSSV (thẻ HSSV phải chính chủ và còn hạn sử dụng)/CMND hoặc các loại giấy tờ khác (có năm sinh không quá 22 tuổi)/ mặc đồng phục học sinh – sinh viên của trường.
-                    <br>+ Giá vé U1222 chỉ xét năm sinh, không cần xét ngày tháng năm sinh.</p>
-                <p><b>Chương trình Khách hàng Thường xuyên của nhom12</b> là chương trình ưu đãi dựa trên điểm tích lũy của các thành viên, với những quyền lợi và mức ưu đãi khác nhau tương ứng với các cấp độ thẻ khác nhau.
+                    <br>+ Giá vé U12-U22 chỉ xét năm sinh, không cần xét ngày tháng năm sinh.</p>
+                <p><b>Chương trình khách hàng thường xuyên của nhom12</b> là chương trình ưu đãi dựa trên điểm tích lũy của các thành viên, với những quyền lợi và mức ưu đãi khác nhau tương ứng với các cấp độ thẻ khác nhau.
                     <br><b>- Thẻ Standard</b> sẽ được tích 5% cho vé xem phim và 3% cho F&B.
-                    <br><b>- Thẻ VIP</b> sẽ được tích 7% cho vé xem phim và 5% cho F&B Khách hàng có tổng chi tiêu từ 2.000.000 VND trong năm, sẽ trở thành thành viên VIP của nhóm 12 trong năm tiếp theo với vô vàn quà tặng ưu đãi hấp dẫn cho hội viên VIP
+                    <br><b>- Thẻ VIP</b> sẽ được tích 7% cho vé xem phim và 5% cho F&B Khách hàng có tổng chi tiêu từ 2.000.000 VND trong năm, sẽ trở thành thành viên VIP của nhom12 trong năm tiếp theo với vô vàn quà tặng ưu đãi hấp dẫn cho hội viên VIP
                     <br>   + 10 Vé xem phim miễn phí
                     <br>   + 2 Combo bắp nước Harmony Single
                     <br>   + 2 Combo bắp nước Harmony Couple
