@@ -218,18 +218,34 @@ body{
 
 .content_row {
     display: flex;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.content_coll {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_coll .content_section_1,
+.content_section_2 {
+    width: 100%;
+    height: 20%;    
+}
+
+.content_coll .content_section_2.item-1 {
+    /* order: 1; */
 }
 
 .content_coll input[class*=content_input] {
+    margin-top: 4px;
     padding: 0 8px;
     width: 100%;
     height: 30px;
     font-weight: 500;
 }
 
-.content_coll .fix_input {
-    width: 324px !important;
-}
 
 .content_main .content_coll {
     width: 50%;
@@ -247,19 +263,19 @@ body{
 
 .main_change_pass {
     display: none;
+    margin-left: -16px;
+    margin-right: -16px;
 }
 
 .content_change_pass {
     width: 50%;
+    padding: 0 16px;
 }
 
 .input_change_pass input {
     width: 100%;
     height: 26px;
-}
-
-.input_change_pass .fix_change_input {
-    width: 324px;
+    margin-top: 4px;
 }
 
 .content_change_pass h3 {
